@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="body_g_idle1" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FFF176"/>
+      <stop offset="60%" stop-color="#FFE135"/>
+      <stop offset="100%" stop-color="#F9C906"/>
+    </radialGradient>
+    <radialGradient id="eye_shine" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Ahoge (hair tuft) -->
+  <path d="M64 28 Q60 14 56 8 Q62 12 66 6 Q68 12 72 10 Q70 16 64 28Z" fill="#FFE135" stroke="#222" stroke-width="2"/>
+  <!-- Body -->
+  <ellipse cx="64" cy="75" rx="34" ry="40" fill="url(#body_g_idle1)" stroke="#222" stroke-width="3"/>
+  <!-- Belly curve -->
+  <path d="M50 85 Q64 95 78 85" fill="none" stroke="#F9C906" stroke-width="2" stroke-linecap="round"/>
+  <!-- Left wing -->
+  <ellipse cx="28" cy="78" rx="12" ry="7" fill="#FFE135" stroke="#222" stroke-width="2" transform="rotate(-20,28,78)"/>
+  <!-- Right wing -->
+  <ellipse cx="100" cy="78" rx="12" ry="7" fill="#FFE135" stroke="#222" stroke-width="2" transform="rotate(20,100,78)"/>
+  <!-- Left eye -->
+  <ellipse cx="53" cy="65" rx="8" ry="9" fill="#111"/>
+  <ellipse cx="53" cy="65" rx="6" ry="7" fill="#1a1a1a"/>
+  <circle cx="50" cy="62" r="2.5" fill="white"/>
+  <!-- Right eye -->
+  <ellipse cx="75" cy="65" rx="8" ry="9" fill="#111"/>
+  <ellipse cx="75" cy="65" rx="6" ry="7" fill="#1a1a1a"/>
+  <circle cx="72" cy="62" r="2.5" fill="white"/>
+  <!-- Beak -->
+  <ellipse cx="64" cy="77" rx="7" ry="4" fill="#FF8C00" stroke="#222" stroke-width="1.5"/>
+  <!-- Feet -->
+  <ellipse cx="53" cy="115" rx="9" ry="5" fill="#FF8C00" stroke="#222" stroke-width="1.5"/>
+  <ellipse cx="75" cy="115" rx="9" ry="5" fill="#FF8C00" stroke="#222" stroke-width="1.5"/>
+</svg>

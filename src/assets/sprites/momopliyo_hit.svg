@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="body_mom_hit" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FFD6E0"/>
+      <stop offset="60%" stop-color="#FFB7C5"/>
+      <stop offset="100%" stop-color="#F08090"/>
+    </radialGradient>
+  </defs>
+  <g opacity="0.9">
+    <path d="M20 25 L22 18 L24 25 L31 23 L26 28 L29 35 L22 31 L15 35 L18 28 L13 23 Z" fill="#FFD700" stroke="#FF8C00" stroke-width="1"/>
+    <path d="M95 18 L97 12 L99 18 L105 16 L101 21 L103 27 L97 24 L91 27 L93 21 L89 16 Z" fill="#FFD700" stroke="#FF8C00" stroke-width="1"/>
+    <path d="M108 45 L110 39 L112 45 L118 43 L114 48 L116 54 L110 51 L104 54 L106 48 L102 43 Z" fill="#FFD700" stroke="#FF8C00" stroke-width="1"/>
+  </g>
+  <path d="M64 24 Q60 8 58 2 Q64 8 68 2 Q70 8 66 24Z" fill="#FFB7C5" stroke="#a05070" stroke-width="2"/>
+  <ellipse cx="64" cy="76" rx="38" ry="36" fill="url(#body_mom_hit)" stroke="#a05070" stroke-width="3"/>
+  <path d="M48 86 Q64 96 80 86" fill="none" stroke="#F08090" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="22" cy="74" rx="14" ry="8" fill="#FFB7C5" stroke="#a05070" stroke-width="2" transform="rotate(-30,22,74)"/>
+  <ellipse cx="106" cy="74" rx="14" ry="8" fill="#FFB7C5" stroke="#a05070" stroke-width="2" transform="rotate(30,106,74)"/>
+  <ellipse cx="52" cy="66" rx="10" ry="11" fill="#111"/>
+  <ellipse cx="52" cy="66" rx="7" ry="8" fill="#333"/>
+  <circle cx="48" cy="62" r="3" fill="white"/>
+  <ellipse cx="76" cy="66" rx="10" ry="11" fill="#111"/>
+  <ellipse cx="76" cy="66" rx="7" ry="8" fill="#333"/>
+  <circle cx="72" cy="62" r="3" fill="white"/>
+  <ellipse cx="64" cy="80" rx="8" ry="6" fill="#222"/>
+  <path d="M57 78 Q64 72 71 78 Q68 85 60 85 Z" fill="#FF8C00" stroke="#a05070" stroke-width="1.5"/>
+  <ellipse cx="53" cy="113" rx="9" ry="5" fill="#FF8C00" stroke="#a05070" stroke-width="1.5"/>
+  <ellipse cx="75" cy="113" rx="9" ry="5" fill="#FF8C00" stroke="#a05070" stroke-width="1.5"/>
+</svg>

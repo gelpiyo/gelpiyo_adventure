@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="chest_wood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A0522D"/>
+      <stop offset="50%" stop-color="#8B3A1A"/>
+      <stop offset="100%" stop-color="#6B2710"/>
+    </linearGradient>
+    <linearGradient id="chest_gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE57A"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#CC9900"/>
+    </linearGradient>
+    <radialGradient id="gold_shine" cx="40%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#FFFF99"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Chest base (bottom) -->
+  <rect x="18" y="68" width="92" height="48" rx="6" ry="6" fill="url(#chest_wood)" stroke="#4a1a00" stroke-width="2.5"/>
+  <!-- Chest lid (top) -->
+  <rect x="18" y="32" width="92" height="40" rx="6" ry="6" fill="url(#chest_wood)" stroke="#4a1a00" stroke-width="2.5"/>
+  <!-- Lid arc curve -->
+  <ellipse cx="64" cy="32" rx="46" ry="14" fill="#9E4728" stroke="#4a1a00" stroke-width="2"/>
+  <!-- Gold banding - lid -->
+  <rect x="18" y="62" width="92" height="10" rx="3" fill="url(#chest_gold)" stroke="#CC9900" stroke-width="1.5"/>
+  <!-- Gold banding - base -->
+  <rect x="18" y="68" width="92" height="10" rx="3" fill="url(#chest_gold)" stroke="#CC9900" stroke-width="1.5"/>
+  <!-- Gold lock plate -->
+  <rect x="52" y="56" width="24" height="22" rx="4" fill="url(#chest_gold)" stroke="#CC9900" stroke-width="2"/>
+  <!-- Lock keyhole -->
+  <circle cx="64" cy="64" r="5" fill="#4a1a00"/>
+  <rect x="61" y="68" width="6" height="6" rx="1" fill="#4a1a00"/>
+  <!-- Gold trim corners -->
+  <circle cx="22" cy="72" r="5" fill="url(#chest_gold)" stroke="#CC9900" stroke-width="1.5"/>
+  <circle cx="106" cy="72" r="5" fill="url(#chest_gold)" stroke="#CC9900" stroke-width="1.5"/>
+  <!-- Shine on lid -->
+  <ellipse cx="50" cy="40" rx="16" ry="6" fill="url(#gold_shine)" transform="rotate(-10,50,40)"/>
+  <!-- Gold coins spilling (decorative) -->
+  <ellipse cx="38" cy="64" rx="8" ry="5" fill="#FFD700" stroke="#CC9900" stroke-width="1" transform="rotate(-20,38,64)"/>
+  <ellipse cx="90" cy="63" rx="8" ry="5" fill="#FFD700" stroke="#CC9900" stroke-width="1" transform="rotate(20,90,63)"/>
+</svg>

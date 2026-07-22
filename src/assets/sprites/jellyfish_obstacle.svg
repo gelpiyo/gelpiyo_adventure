@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="jelly_body" cx="45%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#F8BBFF" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#CE93D8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#9C27B0" stop-opacity="0.5"/>
+    </radialGradient>
+    <radialGradient id="jelly_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="60%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="#E040FB" stop-opacity="0.4"/>
+    </radialGradient>
+    <filter id="jelly_blur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  <!-- Outer glow -->
+  <ellipse cx="64" cy="52" rx="48" ry="40" fill="#CE93D8" fill-opacity="0.2" filter="url(#jelly_blur)"/>
+  <!-- Bell body -->
+  <ellipse cx="64" cy="50" rx="44" ry="36" fill="url(#jelly_body)" stroke="#9C27B0" stroke-width="1.5" stroke-opacity="0.6"/>
+  <!-- Glow rim -->
+  <ellipse cx="64" cy="50" rx="44" ry="36" fill="url(#jelly_glow)"/>
+  <!-- Inner texture lines -->
+  <path d="M30 50 Q64 60 98 50" fill="none" stroke="#E040FB" stroke-width="1.5" stroke-opacity="0.5"/>
+  <path d="M38 38 Q64 48 90 38" fill="none" stroke="#E040FB" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- Highlight -->
+  <ellipse cx="50" cy="34" rx="14" ry="8" fill="white" fill-opacity="0.4" transform="rotate(-15,50,34)"/>
+  <!-- Tentacles -->
+  <path d="M42 84 Q36 100 40 116" fill="none" stroke="#CE93D8" stroke-width="3" stroke-opacity="0.8" stroke-linecap="round"/>
+  <path d="M52 88 Q50 106 54 122" fill="none" stroke="#E040FB" stroke-width="2.5" stroke-opacity="0.7" stroke-linecap="round"/>
+  <path d="M64 88 Q64 108 62 122" fill="none" stroke="#CE93D8" stroke-width="3" stroke-opacity="0.8" stroke-linecap="round"/>
+  <path d="M76 88 Q78 106 74 122" fill="none" stroke="#E040FB" stroke-width="2.5" stroke-opacity="0.7" stroke-linecap="round"/>
+  <path d="M86 84 Q92 100 88 116" fill="none" stroke="#CE93D8" stroke-width="3" stroke-opacity="0.8" stroke-linecap="round"/>
+  <!-- Bioluminescent spots -->
+  <circle cx="48" cy="44" r="4" fill="#FF80FF" fill-opacity="0.7"/>
+  <circle cx="64" cy="40" r="3" fill="#FF80FF" fill-opacity="0.6"/>
+  <circle cx="80" cy="44" r="4" fill="#FF80FF" fill-opacity="0.7"/>
+  <circle cx="56" cy="56" r="2.5" fill="#FF80FF" fill-opacity="0.5"/>
+  <circle cx="72" cy="56" r="2.5" fill="#FF80FF" fill-opacity="0.5"/>
+</svg>

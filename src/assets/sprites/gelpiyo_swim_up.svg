@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="body_g_swim" cx="45%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#FFF176"/>
+      <stop offset="60%" stop-color="#FFE135"/>
+      <stop offset="100%" stop-color="#F9C906"/>
+    </radialGradient>
+  </defs>
+  <!-- Whole character tilted ~20 deg upward -->
+  <g transform="rotate(-20, 64, 70)">
+    <!-- Ahoge (blown back) -->
+    <path d="M60 28 Q52 15 46 10 Q58 14 62 7 Q66 13 70 11 Q67 18 60 28Z" fill="#FFE135" stroke="#222" stroke-width="2"/>
+    <!-- Body -->
+    <ellipse cx="64" cy="72" rx="30" ry="38" fill="url(#body_g_swim)" stroke="#222" stroke-width="3"/>
+    <!-- Belly curve -->
+    <path d="M52 82 Q64 92 76 82" fill="none" stroke="#F9C906" stroke-width="2" stroke-linecap="round"/>
+    <!-- Wings spread upward -->
+    <ellipse cx="26" cy="65" rx="14" ry="8" fill="#FFE135" stroke="#222" stroke-width="2" transform="rotate(-35,26,65)"/>
+    <ellipse cx="102" cy="65" rx="14" ry="8" fill="#FFE135" stroke="#222" stroke-width="2" transform="rotate(35,102,65)"/>
+    <!-- Determined eyes (angled eyebrows) -->
+    <ellipse cx="53" cy="63" rx="7" ry="8" fill="#111"/>
+    <circle cx="51" cy="60" r="2" fill="white"/>
+    <path d="M46 55 Q53 52 58 55" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="75" cy="63" rx="7" ry="8" fill="#111"/>
+    <circle cx="73" cy="60" r="2" fill="white"/>
+    <path d="M70 55 Q75 52 82 55" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Beak -->
+    <ellipse cx="64" cy="74" rx="6" ry="4" fill="#FF8C00" stroke="#222" stroke-width="1.5"/>
+    <!-- Feet tucked back -->
+    <ellipse cx="55" cy="110" rx="8" ry="4" fill="#FF8C00" stroke="#222" stroke-width="1.5" transform="rotate(-10,55,110)"/>
+    <ellipse cx="73" cy="112" rx="8" ry="4" fill="#FF8C00" stroke="#222" stroke-width="1.5" transform="rotate(10,73,112)"/>
+    <!-- Bubbles below -->
+    <circle cx="50" cy="118" r="4" fill="none" stroke="#7EC8E3" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="64" cy="122" r="3" fill="none" stroke="#7EC8E3" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="76" cy="119" r="2" fill="none" stroke="#7EC8E3" stroke-width="1.5" opacity="0.7"/>
+  </g>
+</svg>

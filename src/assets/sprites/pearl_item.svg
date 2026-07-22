@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="pearl_grad" cx="38%" cy="32%" r="58%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F5F0E8"/>
+      <stop offset="80%" stop-color="#D8C8B0"/>
+      <stop offset="100%" stop-color="#C0A882"/>
+    </radialGradient>
+    <radialGradient id="pearl_gloss" cx="35%" cy="28%" r="40%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Pearl body -->
+  <circle cx="64" cy="66" r="44" fill="url(#pearl_grad)" stroke="#C0A882" stroke-width="2"/>
+  <!-- Iridescent sheen -->
+  <ellipse cx="56" cy="54" rx="18" ry="12" fill="#E8D8F0" fill-opacity="0.4" transform="rotate(-20,56,54)"/>
+  <!-- Main highlight -->
+  <ellipse cx="50" cy="46" rx="14" ry="9" fill="url(#pearl_gloss)"/>
+  <!-- Secondary shimmer -->
+  <ellipse cx="78" cy="78" rx="10" ry="6" fill="#D0E8FF" fill-opacity="0.35" transform="rotate(30,78,78)"/>
+  <!-- Small sparkle points -->
+  <circle cx="46" cy="42" r="3" fill="white" fill-opacity="0.9"/>
+  <circle cx="82" cy="82" r="2" fill="white" fill-opacity="0.6"/>
+</svg>
